@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5em 5em;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,.5);
+    background: rgb(80, 79, 79);
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: #29cb08;
+}
+
+#navbarSupportedContent a{
+    color: whitesmoke;
+}
+
+#navbarSupportedContent a:hover{
+    color: #29cb08;
+}
+
+#navbarSupportedContent button{
+    background: #29cb08;
+    width: 5em;
+    border-radius: 15px;
+}
+
+section{
+    width: 100%;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+}
+
+ #home h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+#home p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#home{
+    background:url(grocerybackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#about{
+    background: beige;
+}
+
+#about h1{
+    font-weight: 800;
+    font-size:60px;
+}
+
+#about p{
+    font-weight: bolder;
+}
+
+#product{
+    background:#e5e5e5;
+}
+
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#product img{
+    width:250px;
+    height: 200px;
+}
+
+.card{
+    width: 250px;
+    height: 200px;
+    margin: 20px 60px;
+    background: #e5e5e5;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0,.3);
+    border-radius:30px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+#product h4{
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #495057;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+iframe {
+    width:100%;
+    height:300px;
+    border: none;
+}
+
+#contact h1 p{
+    font-weight: bolder;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
